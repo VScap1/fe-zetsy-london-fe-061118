@@ -1,7 +1,9 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+h1 {
+  font-family: "Baskerville";
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -15,6 +17,17 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+.a {
+  display: block;
+  line: block
+}
+.pressimage {
+  border: black 5px;
+}
+
+.copyright {
+  text-align: right;
 }
 
 /* Write all remaining styles here */
